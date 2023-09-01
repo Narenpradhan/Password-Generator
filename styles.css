@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* font-family: 'Inter', sans-serif;
+font-family: 'Karla', sans-serif; */
+
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1C1C;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 446px;
+    height: 321px;
+    background-color: #1F2937;
+    border-radius: 12px;
+    padding: 115px 52px;
+}
+
+.top{
+    height: 130px;
+}
+#top1{
+    color: #FFFFFF;
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+#top2{
+    color: #4ADF86;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+#top3{
+    color: #D5D4D8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.mid{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border-bottom: 2px solid #2F3E53;
+}
+#generate-btn{
+    width: 191px;
+    height: 42px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #4ADF86;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.end{
+    display: flex;
+    height: 91px;
+    justify-content: space-between;
+    align-items: center;
+}
+.passfield{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 211px;
+    height: 39px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4ADF86;
+    background-color: #273549;
+    border-radius: 6px;
+}
